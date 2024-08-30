@@ -9,9 +9,9 @@ const Navbar=()=>{
   return (
     <div className='shadow-md w-full fixed top-0 left-0 z-30 md:h-16 md:flex md:justify-end md:items-center'>
       <div className='md:flex items-center justify-end'>
-        <div onClick={() => setOpen(!open)} className='absolute right-0 top-2 cursor-pointer md:hidden w-7 h-7 text-white'>
+        <div onClick={() => setOpen(!open)} className='absolute right-0 top-2 cursor-pointer md:hidden w-10 h-7 text-white'>
           {
-            open ? <IoClose /> : <MdMenu />
+            open ? <IoClose size={30}/> : <MdMenu size={30}/>
           }
         </div>
         <ul className={`md:flex justify-center items-center md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-0' : 'top-[-490px]'}`}>
