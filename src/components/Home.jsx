@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
 
 const Home = () => {
+  alert("Still  Under Construction")
   return (
     <div>
       <div className=''>
