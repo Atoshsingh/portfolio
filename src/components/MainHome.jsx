@@ -8,15 +8,17 @@ return (
       <div className=' md:flex-1 flex flex-col md:flex-row justify-center items-center h-[50%] md:h-[100%] w-[100%]'>
         {/* greeting*/}
         <div className='flex flex-col justify-center items-center'>
-          <p className=' text-2xl md:text-4xl font-semibold text-sky-100'>Nice to Meet!</p><br />
-          <p className=' text-2xl md:text-4xl'>I'm <span className='text-sky-300 font-serif font-extrabold'> Aashutosh Singh</span></p>
+          <p className=' text-2xl md:text-4xl font-semibold text-black'>Hello World!</p><br />
+          <p className=' text-2xl md:text-4xl'>I'm <span className='text-[#6e80ed] font-serif font-extrabold'> Aashutosh Singh</span></p>
           <p>
             {/* typing effects  */}
             <div className='flex p-7'>
-              <TypeAnimation
+              <TypeAnimation className='text-black'
                 preRenderFirstString={true}
                 sequence={[
-                  1500,// time duration for holding 
+                  2,// time duration for holding 
+                  '',
+                  500,// time duration for holding 
                   'Frontend Developer',
                   1500,
                   'Backend Developer',
@@ -36,7 +38,7 @@ return (
 
       </div>
       <div className='md:flex-1 flex justify-center items-center h-[50%]  md:h-[100%] w-[100%]'>
-        <img className='size-72 md:size-96' src={mainPage} />
+        <img className='size-72 md:size-9/12' src={mainPage} />
         {/* <h1>bfdjkshdkjfsodkfosdkfkds</h1> */}
       </div>
     </div>
