@@ -7,6 +7,16 @@ export default {
   theme: {
     extend: {
     },
+    fontFamily:{
+      "inter":["Amita", "serif"],
+      "passsion":["Passion One", "sans-serif"],
+      "viga":["Viga", "sans-serif"],
+      "anton":["Anton", "sans-serif"],
+      "nerko":["Nerko One", "cursive"],
+      "blackHan":["Black Han Sans", " sans-serif"],
+      "mochiy":["Mochiy Pop P One", " sans-serif"],
+
+    },
     screens: {
       'sm': '640px',
       'md': '768px',
