@@ -10,7 +10,7 @@ import repairPro from '../assets/projectImages/repairPro.png';
 const Project=()=>{
   return (
     <div className=' w-full md:h-[2200px] h-[3700px] flex justify-center items-center'>
-      <div className=' grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 md:gap-10 xl:gap-32 h-[3600px] md:h-[1700px]'>
+      <div className=' grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 md:gap-10 xl:gap-32 h-[3600px] md:h-[1700px] '>
       <div className='backdrop-blur-2xl gap-7 rounded-3xl hover:scale-105 hover:backdrop-blur-none shadow-[0_7px_13px_1px_rgba(0,0,0,0.3)] xl:h-[650px] flex flex-col justify-center items-center xl:w-[340px] md:h-[600px] md:w-[380px] h-[460px] w-[300px] transition ease-in-out duration-300'>
         <div className='h-[10%] font-anton flex items-center justify-center text-2xl md:text-3xl text-[#54c8f9]'><p>Repair Pro </p></div>
         <div className='h-[30%] flex justify-center items-center px-4 '><img className='rounded-xl ' src={repairPro} alt='repairPro'/></div>

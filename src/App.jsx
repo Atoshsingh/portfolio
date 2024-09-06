@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Navbar from './components/Navbar'
@@ -8,9 +8,10 @@ import Resume from './components/Resume'
 import Experience from './components/Experience'
 import Home from './components/Home'
 import MainHome from './components/MainHome'
-
+import image from "./assets/myPic.jpg";
 function App() {
 
+ 
   const browserRoute = createBrowserRouter([
     {
       path: "/",

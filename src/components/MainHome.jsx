@@ -40,7 +40,7 @@ const MainHome = () => {
 
         </div>
         <div className='md:flex-1 flex justify-center items-center h-[50%]  md:h-[100%] w-[100%]'>
-          <img className='size-96 md:size-11/12 hover:scale-95 duration-500' src={mainPage} />
+          <img className='size-96 md:size-10/12 hover:scale-95 duration-500' src={mainPage} />
           {/* <h1>bfdjkshdkjfsodkfosdkfkds</h1> */}
         </div>
       </div>
