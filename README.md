@@ -1,8 +1,14 @@
-# Aashutosh Singh
+Portfolio Website
+Welcome to my portfolio website! This site showcases my projects, skills, and experiences in web development.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Responsive Design: Works seamlessly on various devices.
+Project Showcase: Highlights my work with descriptions and links.
+About Me: A brief introduction to my background and interests.
+Contact Form: Connect with me for inquiries or collaborations.
 
-Currently, two official plugins are available:
+Technologies Used
+React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+![Screenshot 2024-10-08 003919](https://github.com/user-
