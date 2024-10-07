@@ -11,4 +11,7 @@ Technologies Used
 React
 
 
-![Screenshot 2024-10-08 003919](https://github.com/user-
+![Screenshot 2024-10-08 003919](https://github.com/user-attachments/assets/63be431c-55be-4d24-90b9-58cbd2e9f2c2)
+
+
+
