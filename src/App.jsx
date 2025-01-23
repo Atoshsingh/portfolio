@@ -10,8 +10,6 @@ import Home from './components/Home'
 import MainHome from './components/MainHome'
 import image from "./assets/myPic.jpg";
 function App() {
-
- 
   const browserRoute = createBrowserRouter([
     {
       path: "/",

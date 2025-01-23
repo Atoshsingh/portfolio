@@ -8,7 +8,7 @@ const Navbar=()=>{
   let [open,setOpen] = useState(false);
   return (
     <div className=' w-full fixed top-0 left-0 z-30 md:h-16 md:flex md:justify-end md:items-center '>
-      <div className='md:flex items-center justify-end '>
+      <div className='md:flex items-center justify-end'>
         <div onClick={() => setOpen(!open)} className='absolute right-1 top-2 cursor-pointer md:hidden w-10 h-7 text-white'>
           {
             open ? <IoClose size={30}/> : <MdMenu size={30}/>
