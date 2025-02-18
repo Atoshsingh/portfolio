@@ -51,8 +51,6 @@ html,body{
 ::-webkit-scrollbar-thumb{
   background-color: #54c8f9;
 }
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
